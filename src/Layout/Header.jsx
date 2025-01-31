@@ -21,7 +21,7 @@ zIndex:99
 zIndex:99
 }}>
             <NavLink to={'/'} className={'nav_links'}>Home</NavLink>
-            <NavLink to={'/cc'}  className={'nav_links'}>About us</NavLink>
+            <NavLink to={'/about-us'}  className={'nav_links'}>About us</NavLink>
             <NavLink to={'/cc'}  className={'nav_links'}>Product <img src={arrow}/> </NavLink>
             <NavLink  to={'/cc'} className={'nav_links'}>Accounts <img src={arrow}/> </NavLink>
             <NavLink to={'/cc'}  className={'nav_links'}>Contact us</NavLink>

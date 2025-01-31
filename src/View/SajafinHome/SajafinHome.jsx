@@ -12,6 +12,13 @@ import car from '../../assets/Vector.png'
 import home from '../../assets/home.png'
 import Brands from './Brands.jsx'
 import Ipdcataglance from './Ipdcataglance.jsx'
+import Services from './Services.jsx'
+import BestResult from './BestResult.jsx'
+import MoneyTransfer from './MoneyTransfer.jsx'
+import Remittances from './Remittances.jsx'
+import vectorimg from '../../assets/Group 1171275289.png'
+import Accordion from './Accordion.jsx'
+import Footer from '../../Layout/Footer.jsx'
 const SajafinHome = () => {
   return (
     <>
@@ -61,6 +68,13 @@ const SajafinHome = () => {
      <HomeExperience/>
       <Brands/>
       <Ipdcataglance/>
+      <Services />
+      <BestResult />
+      <MoneyTransfer />
+      <Remittances />
+      <img src={vectorimg} alt="" style={{height: "280px", width:"100%"}}/>
+      <Accordion />
+      <Footer />
     </>
   )
 }
