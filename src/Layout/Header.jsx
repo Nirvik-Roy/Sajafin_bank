@@ -22,7 +22,7 @@ zIndex:99
 }}>
             <NavLink to={'/'} className={'nav_links'}>Home</NavLink>
             <NavLink to={'/about-us'}  className={'nav_links'}>About us</NavLink>
-            <NavLink to={'/cc'}  className={'nav_links'}>Product <img src={arrow}/> </NavLink>
+            <NavLink to={'/cards'}  className={'nav_links'}>Product <img src={arrow}/> </NavLink>
             <NavLink  to={'/cc'} className={'nav_links'}>Accounts <img src={arrow}/> </NavLink>
             <NavLink to={'/cc'}  className={'nav_links'}>Contact us</NavLink>
             <button className='open_account_btn'>Open Account</button>
