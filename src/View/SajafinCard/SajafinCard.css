@@ -242,6 +242,7 @@
   margin-top: 50px;
   border-radius: 20px;
   height: 300px;
+  margin-bottom: 50px;
 }
 .open-account-left{
   width: 100%;
@@ -260,6 +261,7 @@
 }
 .ready-to-heading{
   font-weight: 500;
+  font-size: 30px;
 }
 .take-few-para{
   margin-top: 20px;
@@ -270,4 +272,5 @@
   border-radius: 10px;
   border: 1px solid #676767;
   background-color: #FFF;
+  font-weight: 500;
 }

@@ -8,6 +8,7 @@ import CardSpend from './CardSpend'
 import ChooseCard from './ChooseCard'
 import CardAccordion from './CardAccordion'
 import OpenAccount from './OpenAccount'
+import Footer from '../../Layout/Footer.jsx'
 
 const SajafinCard = () => {
   return (
@@ -23,7 +24,7 @@ const SajafinCard = () => {
       <Rewards />
       <CardAccordion />
       <OpenAccount />
-    
+      <Footer />
     </>
   )
 }
