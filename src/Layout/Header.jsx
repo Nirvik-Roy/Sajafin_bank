@@ -71,8 +71,8 @@ const Header = () => {
                 <NavLink to="/savings" className="dropdown-item">
                   Savings Account
                 </NavLink>
-                <NavLink to="/current" className="dropdown-item">
-                  Current Account
+                <NavLink to="/account" className="dropdown-item">
+                  Account
                 </NavLink>
               </div>
             )}

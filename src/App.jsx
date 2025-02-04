@@ -5,6 +5,7 @@ import { BrowserRouter, Routes,Route } from 'react-router-dom'
 import SajafinAbout from './View/SajafinAbout/SajafinAbout'
 import SajafinCard from './View/SajafinCard/SajafinCard'
 import SajafinLoans from './View/SajafinLoan/SajafinLoans'
+import SajafinAccount from './View/SajafinAccount/SajafinAccount'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Route path='/about-us' element={<SajafinAbout />} />
         <Route path='/cards' element={<SajafinCard />} />
         <Route path='/loan' element={<SajafinLoans />} />
+        <Route path='/account' element={<SajafinAccount/>} />
         {/* Add more routes here */}
       </Routes>
     </BrowserRouter>
