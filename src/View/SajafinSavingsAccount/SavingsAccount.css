@@ -1,0 +1,36 @@
+.account-head-wrapper{
+  background-color: #FFE8E7;
+  height: 50vh;
+  display: flex;
+  padding: 5px 165px;
+  justify-content: center;
+  /* align-items: center; */
+}
+.nav-links-wrapper{
+  display: flex;
+  /* min-width: 70%; */
+  column-gap: 20px;
+  margin-top: 10px;
+}
+.account-head-left{
+  width: 100%;
+  max-width: 70%;
+  margin: auto 0;
+}
+.account-head-right{
+  width: 100%;
+  max-width: 30%;
+  min-width: 30%;
+}
+.account-head-right img{
+  height: 100%;
+}
+.savings-account-heading{
+  font-size: 29px;
+  font-weight: 600;
+}
+.nav-links-wrapper p{
+  cursor: pointer;
+  font-size: 13px;
+
+}

@@ -3,6 +3,8 @@ import './SajafinAccount.css'
 import Header from '../../Layout/Header'
 import RightAccount from './RightAccount'
 import BusinessSolution from './BusinessSolution'
+import SecurityTrust from './SecurityTrust'
+import BusinessSolution2 from './BusinessSolution2'
 
 const SajafinAccount = () => {
   return (
@@ -12,6 +14,8 @@ const SajafinAccount = () => {
       </div>
       <RightAccount />
       <BusinessSolution />
+      <SecurityTrust />
+      <BusinessSolution2 />
     </>
   )
 }

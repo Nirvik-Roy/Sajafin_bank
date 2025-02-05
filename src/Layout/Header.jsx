@@ -68,10 +68,10 @@ const Header = () => {
             </button>
             {accountsDropdownOpen && (
               <div className="dropdown-menu">
-                <NavLink to="/savings" className="dropdown-item">
+                <NavLink to="/savings-account" className="dropdown-item">
                   Savings Account
                 </NavLink>
-                <NavLink to="/account" className="dropdown-item">
+                <NavLink to="/normal-account" className="dropdown-item">
                   Account
                 </NavLink>
               </div>

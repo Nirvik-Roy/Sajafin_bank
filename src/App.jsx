@@ -6,6 +6,7 @@ import SajafinAbout from './View/SajafinAbout/SajafinAbout'
 import SajafinCard from './View/SajafinCard/SajafinCard'
 import SajafinLoans from './View/SajafinLoan/SajafinLoans'
 import SajafinAccount from './View/SajafinAccount/SajafinAccount'
+import SavingsAccount from './View/SajafinSavingsAccount/SavingsAccount'
 
 function App() {
 
@@ -17,7 +18,8 @@ function App() {
         <Route path='/about-us' element={<SajafinAbout />} />
         <Route path='/cards' element={<SajafinCard />} />
         <Route path='/loan' element={<SajafinLoans />} />
-        <Route path='/account' element={<SajafinAccount/>} />
+        <Route path='/normal-account' element={<SajafinAccount/>} />
+        <Route path='/savings-account' element={<SavingsAccount />} />
         {/* Add more routes here */}
       </Routes>
     </BrowserRouter>
