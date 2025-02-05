@@ -32,5 +32,239 @@
 .nav-links-wrapper p{
   cursor: pointer;
   font-size: 13px;
+}
+.account-security-wrapper{
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 170px;
+  margin-top: 30px;
+}
+.account-security-left{
+  width: 100%;
+  max-width: 50%;
+  min-width: 50%;
+  
+}
+.account-security-left img{
+  width: 400px;
+}
+.account-security-right{
+  width: 100%;
+  max-width: 50%;
+  min-width: 50%;
+}
+.secure-grow-heading{
+  font-size: 15px;
+  color: #E12312;
+  font-weight: 500;
+}
+.secure-bold-text{
+  font-weight: 500;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.helping-save-goal-para{
+  color: #676767;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.free-deposite{
+  font-size: 13px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+.save-with-us-wrapper{
+  position: relative;
 
+}
+.save-with-us-background{
+  height: 35vh;
+  width: 100%;
+  background-color: #FFE8E7;
+  position: relative;
+}
+.save-with-us-div{
+  position: absolute;
+  width: 100%;
+  max-width: 50%;
+  min-width: 50%;
+  background-color: #FFF;
+  box-shadow: 0px 4px 4px rgba(22, 25, 79, 0.25);
+  top: 50%;
+  left: 25%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+}
+.save-with-us-heading{
+  font-size: 30px;
+  font-weight: 500;
+}
+.save-with-us-para{
+  color: #676767;
+  font-size: 13px;
+  margin-top: 10px;
+}
+.open-account-btn{
+  padding: 8px 10px;
+  background-color: #E12312;
+  border: none;
+  border-radius: 20px;
+  color: #FFF;
+}
+.get-in-touch-btn{
+  padding: 8px 10px;
+  background-color: #FFF;
+  border: 1px solid #E12312;
+  border-radius: 20px;
+  color: #000;
+  font-weight: 500;
+}
+.save-with-us-btns{
+  display: flex;
+  column-gap: 10px;
+  margin-top: 30px;
+}
+.choose-account-wrapper{
+  margin-top: 150px;
+  text-align: center;
+  padding: 70px 0px;
+}
+.choose-account-card-wrapper{
+  display: flex;
+  column-gap: 50px;
+  width: 100%;
+  max-width: 65%;
+  min-width: 65%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.choose-account-card{
+  box-shadow: 0px 4px 4px rgba(22, 25, 79, 0.25);
+  padding: 40px ;
+  width: 100%;
+  max-width: 28%;
+  min-width: 28%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.you-could-earn-div{
+  background-color: #FDD4D1;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+}
+.you-could-heading{
+  font-size: 11px;
+  padding-top: 30px;
+  font-weight: 500;
+}
+.p-a-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p-a-heading{
+  color: #E12312;
+  font-size: 20px;
+  font-weight: 600;
+}
+.easy-invest-para{
+  font-size: 20px;
+  font-weight: 500;
+}
+.fees-div{
+  border-bottom: 1px solid #A9AFBC;
+  margin-top: 10px;
+  width: 100%;
+}
+.fees-div-bold-text{
+  font-size: 15px;
+  font-weight: 600;
+}
+.fees-div-fade-text{
+  color: #676767;
+  font-size: 12px;
+  font-weight: 500;
+}
+.check-ebility-num{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+}
+.check-heading{
+  font-size: 16px;
+  font-weight: 500;
+  /* margin-bottom: 15px; */
+  /* margin-top: 10px; */
+}
+.check-para{
+  color: #676767;
+  font-size: 10px;
+  margin-top: 10px;
+}
+.check-ebility-text{
+  text-align: start;
+  margin-left: 10px;
+}
+.how-it-work-wrapper{
+  background-color: #FFE8E7;
+  height: 80vh;
+  text-align: center;
+  padding-top: 40px;
+  margin-bottom: 70px;
+}
+.how-to-work-container{
+  display: flex;
+  width: 100%;
+  max-width: 70%;
+  min-width: 70%;
+  margin: 0px auto;
+}
+.how-it-work-left{
+  width: 100%;
+  max-width: 50%;
+  min-width: 50%;
+}
+.how-it-work-right{
+  width: 100%;
+  max-width: 50%;
+  min-width: 50%;
+}
+.how-it-work-right img{
+  width: 500px;
+}
+.check-ebility-div{
+  display: flex;
+  margin-bottom: 8px;
+}
+.better-way-para{
+  color: #E12312;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.how-it-work-heading{
+  font-weight: 500;
+}
+.finances-seamlessly{
+  color: #676767;
+  font-size: 13px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+.oneLogo-img{
+  width: 25px;
+}
+.line-img{
+  height: 60px;
 }
