@@ -5,7 +5,9 @@ import RightAccount from './RightAccount'
 import BusinessSolution from './BusinessSolution'
 import SecurityTrust from './SecurityTrust'
 import BusinessSolution2 from './BusinessSolution2'
-
+import CardAccordion from '../SajafinCard/CardAccordion'
+import OpenAccount from '../SajafinCard/OpenAccount.jsx'
+import Footer from '../../Layout/Footer'
 const SajafinAccount = () => {
   return (
     <>
@@ -16,6 +18,9 @@ const SajafinAccount = () => {
       <BusinessSolution />
       <SecurityTrust />
       <BusinessSolution2 />
+      <CardAccordion/>
+      <OpenAccount/>
+      <Footer/>
     </>
   )
 }

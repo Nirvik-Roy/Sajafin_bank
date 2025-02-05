@@ -7,22 +7,6 @@ const Header = () => {
   const [productDropdownOpen, setProductDropdownOpen] = useState(false);
   const [accountsDropdownOpen, setAccountsDropdownOpen] = useState(false);
 
-  // Close dropdowns when clicking outside
-  useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (
-        !event.target.closest(".dropdown") &&
-        !event.target.closest(".dropdown-button")
-      ) {
-        setProductDropdownOpen(false);
-        setAccountsDropdownOpen(false);
-      }
-    };
-    document.addEventListener("click", handleClickOutside);
-    return () => {
-      document.removeEventListener("click", handleClickOutside);
-    };
-  }, []);
   return (
     <>
     <div className=''>
@@ -40,7 +24,10 @@ const Header = () => {
 
           {/* Product Dropdown */}
           <div className="dropdown">
-            <button
+            <button style={{
+              border:'none',
+              background:'none'
+            }}
               className="dropdown-button nav_links"
               onClick={() => setProductDropdownOpen(!productDropdownOpen)}
             >
@@ -59,8 +46,14 @@ const Header = () => {
           </div>
 
           {/* Accounts Dropdown */}
-          <div className="dropdown">
+          <div className="dropdown" style={{
+            position:'relative'
+          }}>
             <button
+            style={{
+              border:'none',
+              background:'none',
+            }}
               className="dropdown-button nav_links"
               onClick={() => setAccountsDropdownOpen(!accountsDropdownOpen)}
             >
@@ -69,7 +62,7 @@ const Header = () => {
             {accountsDropdownOpen && (
               <div className="dropdown-menu">
                 <NavLink to="/savings-account" className="dropdown-item">
-                  Savings Account
+                  Savings
                 </NavLink>
                 <NavLink to="/normal-account" className="dropdown-item">
                   Account
