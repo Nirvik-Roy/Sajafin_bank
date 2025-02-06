@@ -100,6 +100,7 @@ iframe{
   justify-content:flex-start ;
   align-items: center;
   column-gap: 5px;
+  cursor: pointer;
 }
 .nav_logo_wrapper{
   width: 200px;

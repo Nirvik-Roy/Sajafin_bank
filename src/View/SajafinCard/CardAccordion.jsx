@@ -38,7 +38,7 @@ const CardAccordion = () => {
             {data.map((item,index)=>(
                 <div className='card-accordion-item' key={index}>
                   <p>{item.questions}</p>
-                  <p><i class="fa-solid fa-plus"></i></p>
+                  <p><i class="fa-solid fa-plus" style={{fontSize:"22px", color:"#DC2C1D"}}></i></p>
                 </div>
             ))}
         </div>

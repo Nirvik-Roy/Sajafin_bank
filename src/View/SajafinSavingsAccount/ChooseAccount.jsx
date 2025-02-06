@@ -6,7 +6,8 @@ const ChooseAccount = () => {
       <div className="choose-account-wrapper">
         <p className="grow-your-confidance">
           Grow Your Confidance
-          <h2 className='choose-account-heading'>Choose the account that
+          </p>
+          <h2 className='choose-account-heading'>Choose the account that <br />
           matches your needs</h2>
           <p className='fine-range-para'>We have a fine range of accounts to help you manage your finances seamlessly</p>
           <div className="choose-account-card-wrapper">
@@ -98,7 +99,7 @@ const ChooseAccount = () => {
               </div>
             </div>
           </div>
-        </p>
+        
       </div>
     </>
   )

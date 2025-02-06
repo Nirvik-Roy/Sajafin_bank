@@ -18,48 +18,48 @@ const FinancialPlanning = () => {
               <div className="home-loan loan-card">
                 <div className="loan-card-logo"><img src={loanCardLogo} alt="" /></div>
                 <p className='home-loan-heading'>Home Loans</p>
-                <div style={{display:"flex"}}>
-                <i class="fa-solid fa-circle-check"></i>
+                <div style={{display:"flex",alignItems:"center"}}>
+                <i class="fa-solid fa-circle-check" style={{fontSize:"12px",color:"#DC2C1D"}}></i>
                 <p className='lowest-interest'>Lowest interest rates</p>
                 </div>
-                <div style={{display:"flex"}}>
-                <i class="fa-solid fa-circle-check"></i>
+                <div style={{display:"flex",alignItems:"center",marginTop:"5px"}}>
+                <i class="fa-solid fa-circle-check" style={{fontSize:"12px",color:"#DC2C1D"}}></i>
                 <p className='lowest-interest'>Fast Loan Processing</p>
                 </div>
               </div>
               <div className="car-loan loan-card">
               <div className="loan-card-logo"><img src={loanCardLogo} alt="" /></div>
                 <p className='home-loan-heading'>Home Loans</p>
-                <div style={{display:"flex"}}>
-                <i class="fa-solid fa-circle-check"></i>
+                <div style={{display:"flex",alignItems:"center"}}>
+                <i class="fa-solid fa-circle-check" style={{fontSize:"12px",color:"#DC2C1D"}}></i>
                 <p className='lowest-interest'>Lowest interest rates</p>
                 </div>
-                <div style={{display:"flex"}}>
-                <i class="fa-solid fa-circle-check"></i>
+                <div style={{display:"flex",alignItems:"center",marginTop:"5px"}}>
+                <i class="fa-solid fa-circle-check" style={{fontSize:"12px",color:"#DC2C1D"}}></i>
                 <p className='lowest-interest'>Fast Loan Processing</p>
                 </div>
               </div>
               <div className="education-loan loan-card">
               <div className="loan-card-logo"><img src={loanCardLogo} alt="" /></div>
                 <p className='home-loan-heading'>Home Loans</p>
-                <div style={{display:"flex"}}>
-                <i class="fa-solid fa-circle-check"></i>
+                <div style={{display:"flex",alignItems:"center"}}>
+                <i class="fa-solid fa-circle-check" style={{fontSize:"12px",color:"#DC2C1D"}}></i>
                 <p className='lowest-interest'>Lowest interest rates</p>
                 </div>
-                <div style={{display:"flex"}}>
-                <i class="fa-solid fa-circle-check"></i>
+                <div style={{display:"flex",alignItems:"center",marginTop:"5px"}}>
+                <i class="fa-solid fa-circle-check" style={{fontSize:"12px",color:"#DC2C1D"}}></i>
                 <p className='lowest-interest'>Fast Loan Processing</p>
                 </div>
               </div>
               <div className="business-loan loan-card">
               <div className="loan-card-logo"><img src={loanCardLogo} alt="" /></div>
                 <p className='home-loan-heading'>Home Loans</p>
-                <div style={{display:"flex"}}>
-                <i class="fa-solid fa-circle-check"></i>
+                <div style={{display:"flex",alignItems:"center"}}>
+                <i class="fa-solid fa-circle-check" style={{fontSize:"12px",color:"#DC2C1D"}}></i>
                 <p className='lowest-interest'>Lowest interest rates</p>
                 </div>
-                <div style={{display:"flex"}}>
-                <i class="fa-solid fa-circle-check"></i>
+                <div style={{display:"flex",alignItems:"center",marginTop:"5px"}}>
+                <i class="fa-solid fa-circle-check" style={{fontSize:"12px",color:"#DC2C1D"}}></i>
                 <p className='lowest-interest'>Fast Loan Processing</p>
                 </div>
               </div>

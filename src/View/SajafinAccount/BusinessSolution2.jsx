@@ -19,7 +19,7 @@ const BusinessSolution2 = () => {
             <p className='checking-para'>Choose from our checking options that allow you to earn interest, avoid 
 fees, and easily manage your 
 account.</p>
-<p>Open Account</p>
+<p className='solution2-open-account-btn'>Open Account <i class="fa-solid fa-arrow-right" style={{color:"#DC2C1D"}}></i></p>
           </div>
           <div className="business-solution2-card">
           <div className="business-solution2-logo">
@@ -29,7 +29,7 @@ account.</p>
             <p className='checking-para'>Choose from our checking options that allow you to earn interest, avoid 
 fees, and easily manage your 
 account.</p>
-<p>Open Account</p>
+<p className='solution2-open-account-btn'>Open Account <i class="fa-solid fa-arrow-right"  style={{color:"#DC2C1D"}}></i></p>
           </div>
           <div className="business-solution2-card">
           <div className="business-solution2-logo">
@@ -39,7 +39,7 @@ account.</p>
             <p className='checking-para'>Choose from our checking options that allow you to earn interest, avoid 
 fees, and easily manage your 
 account.</p>
-<p>Open Account</p>
+<p className='solution2-open-account-btn'>Open Account <i class="fa-solid fa-arrow-right" style={{color:"#DC2C1D"}}></i></p>
           </div>
         </div>
       </div>

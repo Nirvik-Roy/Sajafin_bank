@@ -232,6 +232,8 @@
   text-align: start;
   font-size: 13px;
   font-weight: 500;
+  display: flex;
+  justify-content: space-between;
 }
 .open-account-section-wrapper{
   background-color: #FFE6E3;

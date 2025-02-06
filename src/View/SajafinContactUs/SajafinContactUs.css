@@ -1,0 +1,92 @@
+.contact-us-head-wrapper{
+  background-color: #FFE8E7;
+  height: 50vh;
+  display: flex;
+  padding: 5px 200px;
+  justify-content: center;
+}
+.contact-us-head-left{
+  width: 100%;
+  max-width: 70%;
+  min-width: 70%;
+  margin: auto 0;
+}
+.contact-us-head-right{
+  width: 100%;
+  max-width: 30%;
+  min-width: 30%;
+}
+.contact-us-head-right img{
+  height: 100%;
+}
+.contact-us-heading{
+  font-size: 29px;
+  font-weight: 600;
+}
+.home-to-contact-us-link{
+  margin-top: 10px;
+  font-size: 13px;
+  cursor: pointer;
+  color: #676767;
+}
+.contact-us-get-in-touch-wrapper{
+  height: 90vh;
+  position: relative;
+  text-align: center;
+}
+.contact-us-get-in-touch-heading{
+  font-size: 30px;
+  font-weight: 500;
+}
+.fill-the-form-para{
+  font-size: 13px;
+  color: #676767;
+  font-weight: 500;
+  margin-top: 15px;
+}
+.get-in-touch-form{
+  position: absolute;
+  display: flex;
+  top: 50%;
+  left: 25%;
+  z-index: 30;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 50%;
+  box-shadow: 0px 4px 4px rgba(22, 25, 79, 0.25);
+  padding: 40px 30px;
+}
+.form-group{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 8px;
+}
+.form-group input{
+  padding: 5px 30px;
+  width: 100%;
+  background-color: #FFE8E7;
+  border: 1px solid #676767;
+  border-radius: 10px;
+  font-size: 12px;
+}
+.get-form-first-wrapper{
+  width: 100%;
+  max-width: 45%;
+  min-width: 45%;
+}
+.get-form-second-wrapper{
+  width: 100%;
+  max-width: 45%;
+  min-width: 45%;
+}
+.send-msg-btn{
+  padding: 8px 10px;
+  background-color: #E12312;
+  display: block;
+}
+.get-in-touch-form-background{
+  height: 30vh;
+  background-color: #FFE8E7;
+}
