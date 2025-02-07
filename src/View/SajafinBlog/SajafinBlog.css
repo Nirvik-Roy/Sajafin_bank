@@ -37,11 +37,29 @@
 }
 .blog-grid-left{
   width: 100%;
-  max-width: 60%;
-  min-width: 60%;
+  min-width: 55%;
+  max-width: 55%;
 }
 .blog-grid-right{
   width: 100%;
   max-width: 40%;
   min-width: 40%;
+}
+.blog-navbar{
+  display: flex;
+  column-gap: 10px;
+}
+.blog-navlink{
+  padding: 8px 10px;
+  background-color: #FFE8E7;
+  border-radius: 20px;
+  border: 1px solid #676767;
+  cursor: pointer;
+}
+.blog-navlink:hover {
+  background-color: #E12312;
+  color: #FFF;
+}
+.follow-us-social-media{
+  display: flex;
 }
