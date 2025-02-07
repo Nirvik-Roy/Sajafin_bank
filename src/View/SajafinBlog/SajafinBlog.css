@@ -104,8 +104,8 @@
 }
 .blog-right-card-wrapper{
   display: flex;
-  column-gap: 20px;
-  row-gap: 20px;
+  column-gap: 25px;
+  row-gap: 25px;
   flex-wrap: wrap;
   margin-top: 10px;
   
