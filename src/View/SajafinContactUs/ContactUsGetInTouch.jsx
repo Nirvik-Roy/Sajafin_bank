@@ -1,4 +1,6 @@
 import React from 'react'
+import callCenterImg from '../../assets/Call center-pana 1.png'
+import circleImg from '../../assets/Group 1171275309.png'
 
 const ContactUsGetInTouch = () => {
   return (
@@ -40,10 +42,10 @@ const ContactUsGetInTouch = () => {
         </div>
         <div className="get-in-touch-form-background">
           <div className="background-left">
-            <img src="" alt="" />
+            <img src={callCenterImg} alt="" />
           </div>
           <div className="background-right">
-            <img src="" alt="" />
+            <img src={circleImg} alt="" />
           </div>
         </div>
       </div>

@@ -13,7 +13,7 @@ import Footer from '../../Layout/Footer.jsx'
 const SajafinCard = () => {
   return (
     <>
-      <div className="uni_conatiner" style={{position:"relative"}}>
+      <div className="uni_container" style={{position:"relative"}}>
         <Header />
       </div>
       <CardHead />

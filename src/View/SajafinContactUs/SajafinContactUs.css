@@ -87,6 +87,18 @@
   display: block;
 }
 .get-in-touch-form-background{
-  height: 30vh;
+  height: 40vh;
   background-color: #FFE8E7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+.background-left img{
+  width: 230px;
+}
+.background-right img{
+  width: 200px;
 }
