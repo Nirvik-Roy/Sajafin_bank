@@ -1,5 +1,6 @@
 import React from 'react'
 import HomeOwnerImg from '../../assets/Group 1171275319.png'
+import taxImg from '../../assets/Group 1171275316.png'
 
 const BlogGridSection = () => {
   return (
@@ -8,7 +9,7 @@ const BlogGridSection = () => {
         <div className="blog-grid-wrapper">
           <div className="blog-grid-left">
             <div className="blog-navbar">
-              <div className="blog-navlink">Latest</div>
+              <div className="blog-navlink active">Latest</div>
               <div className="blog-navlink">Loan</div>
               <div className="blog-navlink">Credit Card</div>
               <div className="blog-navlink">Business</div>
@@ -109,6 +110,40 @@ const BlogGridSection = () => {
             <i class="fa-brands fa-square-instagram"></i>
             <i class="fa-brands fa-twitter"></i>
             </div>
+            </div>
+            <p className="popular-posts">Popular Blog Post</p>
+            <div className="blog-right-card-wrapper">
+              <div className="blog-right-card">
+                <img src={taxImg} alt="" />
+              <p>What everyone gets wrong about taxes</p>
+              <p>December 19,2021</p>
+              </div>
+              <div className="blog-right-card">
+                <img src={taxImg} alt="" />
+              <p>What everyone gets wrong about taxes</p>
+              <p>December 19,2021</p>
+              </div>
+              <div className="blog-right-card">
+                <img src={taxImg} alt="" />
+              <p>What everyone gets wrong about taxes</p>
+              <p>December 19,2021</p>
+              </div>
+              <div className="blog-right-card">
+                <img src={taxImg} alt="" />
+              <p>What everyone gets wrong about taxes</p>
+              <p>December 19,2021</p>
+              </div>
+              <div className="blog-right-card">
+                <img src={taxImg} alt="" />
+              <p>What everyone gets wrong about taxes</p>
+              <p>December 19,2021</p>
+              </div>
+              <div className="blog-right-card">
+                <img src={taxImg} alt="" />
+              <p>What everyone gets wrong about taxes</p>
+              <p>December 19,2021</p>
+              </div>
+
             </div>
           </div>
         </div>

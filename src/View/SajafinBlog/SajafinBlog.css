@@ -34,6 +34,8 @@
 }
 .blog-grid-wrapper{
   display: flex;
+  height: 120vh;
+  margin-top: 80px;
 }
 .blog-grid-left{
   width: 100%;
@@ -47,18 +49,26 @@
 }
 .blog-navbar{
   display: flex;
-  column-gap: 10px;
+  column-gap: 13px;
+  margin-bottom: 15px;
 }
 .blog-navlink{
-  padding: 8px 10px;
+  padding: 8px 15px;
   background-color: #FFE8E7;
   border-radius: 20px;
   border: 1px solid #676767;
   cursor: pointer;
+  font-size: 13px;
+}
+.blog-navlink.active{
+  background-color: #E12312;
+  color: #FFF;
+  border: none;
 }
 .blog-navlink:hover {
   background-color: #E12312;
   color: #FFF;
+  border: none;
 }
 .follow-us-social-media{
   display: flex;
@@ -84,4 +94,8 @@
 }
 .blog-left-card-left img{
   width: 300px;
+}
+.blog-right-card-wrapper{
+  display: flex;
+  flex-wrap: wrap;
 }
