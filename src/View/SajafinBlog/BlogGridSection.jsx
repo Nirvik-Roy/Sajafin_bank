@@ -1,6 +1,9 @@
 import React from 'react'
 import HomeOwnerImg from '../../assets/Group 1171275319.png'
 import taxImg from '../../assets/Group 1171275316.png'
+import BlogRightCardImg1 from '../../assets/Group 1171275317.png'
+import BlogRightCardImg2 from '../../assets/Group 1171275318.png'
+
 
 const BlogGridSection = () => {
   return (
@@ -20,15 +23,15 @@ const BlogGridSection = () => {
                   <img src={HomeOwnerImg} alt="" />
                 </div>
                 <div className="blog-left-card-right">
-                  <p>How Do Unsecured Homeowner
+                  <p className='unsecure-heading'>How Do Unsecured Homeowner
                   Loans Work?</p>
-                  <div className="blog-date">
-                  <p>Loan</p>
-                  <p>Jan 30 2025</p>  
+                  <div className="blog-date-div">
+                  <p className='loan-para'>Loan</p>
+                  <p className='blog-date'>Jan 30 2025</p>  
                   </div>
-                  <p>There are usually two kinds of loans Secured
+                  <p className='unsecure-para'>There are usually two kinds of loans Secured
                   loans and Unsecured loans</p>
-                  <p>Learn More</p>
+                  <p className='blog-left-card-learn-more'>Learn More</p>
                 </div>
               </div>
               <div className="blog-left-card">
@@ -36,15 +39,15 @@ const BlogGridSection = () => {
                   <img src={HomeOwnerImg} alt="" />
                 </div>
                 <div className="blog-left-card-right">
-                  <p>How Do Unsecured Homeowner
+                  <p className='unsecure-heading'>How Do Unsecured Homeowner
                   Loans Work?</p>
-                  <div className="blog-date">
-                  <p>Loan</p>
-                  <p>Jan 30 2025</p>  
+                  <div className="blog-date-div">
+                  <p className='loan-para'>Loan</p>
+                  <p className='blog-date'>Jan 30 2025</p>  
                   </div>
-                  <p>There are usually two kinds of loans Secured
+                  <p className='unsecure-para'>There are usually two kinds of loans Secured
                   loans and Unsecured loans</p>
-                  <p>Learn More</p>
+                  <p className='blog-left-card-learn-more'>Learn More</p>
                 </div>
               </div>
               <div className="blog-left-card">
@@ -52,15 +55,15 @@ const BlogGridSection = () => {
                   <img src={HomeOwnerImg} alt="" />
                 </div>
                 <div className="blog-left-card-right">
-                  <p>How Do Unsecured Homeowner
+                  <p className='unsecure-heading'>How Do Unsecured Homeowner
                   Loans Work?</p>
-                  <div className="blog-date">
-                  <p>Loan</p>
-                  <p>Jan 30 2025</p>  
+                  <div className="blog-date-div">
+                  <p className='loan-para'>Loan</p>
+                  <p className='blog-date'>Jan 30 2025</p>  
                   </div>
-                  <p>There are usually two kinds of loans Secured
+                  <p className='unsecure-para'>There are usually two kinds of loans Secured
                   loans and Unsecured loans</p>
-                  <p>Learn More</p>
+                  <p className='blog-left-card-learn-more'>Learn More</p>
                 </div>
               </div>
               <div className="blog-left-card">
@@ -68,15 +71,15 @@ const BlogGridSection = () => {
                   <img src={HomeOwnerImg} alt="" />
                 </div>
                 <div className="blog-left-card-right">
-                  <p>How Do Unsecured Homeowner
+                  <p className='unsecure-heading'>How Do Unsecured Homeowner
                   Loans Work?</p>
-                  <div className="blog-date">
-                  <p>Loan</p>
-                  <p>Jan 30 2025</p>  
+                  <div className="blog-date-div">
+                  <p className='loan-para'>Loan</p>
+                  <p className='blog-date'>Jan 30 2025</p>  
                   </div>
-                  <p>There are usually two kinds of loans Secured
+                  <p className='unsecure-para'>There are usually two kinds of loans Secured
                   loans and Unsecured loans</p>
-                  <p>Learn More</p>
+                  <p className='blog-left-card-learn-more'>Learn More</p>
                 </div>
               </div>
               <div className="blog-left-card">
@@ -84,64 +87,74 @@ const BlogGridSection = () => {
                   <img src={HomeOwnerImg} alt="" />
                 </div>
                 <div className="blog-left-card-right">
-                  <p>How Do Unsecured Homeowner
+                  <p className='unsecure-heading'>How Do Unsecured Homeowner
                   Loans Work?</p>
-                  <div className="blog-date">
-                  <p>Loan</p>
-                  <p>Jan 30 2025</p>  
+                  <div className="blog-date-div">
+                  <p className='loan-para'>Loan</p>
+                  <p className='blog-date'>Jan 30 2025</p>  
                   </div>
-                  <p>There are usually two kinds of loans Secured
+                  <p className='unsecure-para'>There are usually two kinds of loans Secured
                   loans and Unsecured loans</p>
-                  <p>Learn More</p>
+                  <p className='blog-left-card-learn-more'>Learn More</p>
                 </div>
               </div>
             </div>
           </div>
           <div className="blog-grid-right">
             <div className="blog-search-section">
-            <i class="fa-solid fa-magnifying-glass"></i>
-              <input type="text" />
+            <i class="fa-solid fa-magnifying-glass"  style={{color:"#E12312"}}></i>
+              <input type="text" placeholder='Search'/>
               <button>Search</button>
             </div>
             <div className="follow-us">
-            <p>Follow Our Journey</p>
+            <p className='follow-our-para'>Follow Our Journey</p>
             <div className="follow-us-social-media">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-square-instagram"></i>
-            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook" style={{color:"#E12312"}}></i>
+            <i class="fa-brands fa-square-instagram" style={{color:"#E12312"}}></i>
+            <i class="fa-brands fa-twitter" style={{color:"#E12312"}}></i>
             </div>
             </div>
             <p className="popular-posts">Popular Blog Post</p>
             <div className="blog-right-card-wrapper">
               <div className="blog-right-card">
                 <img src={taxImg} alt="" />
-              <p>What everyone gets wrong about taxes</p>
-              <p>December 19,2021</p>
+              <p className='blog-right-card-bold-text'>What everyone gets wrong about taxes</p>
+              <p className='blog-right-card-date'>December 19,2021</p>
+              </div>
+              <div className="blog-right-card">
+                <img src={BlogRightCardImg1} alt="" />
+                <p className='blog-right-card-bold-text'>What everyone gets wrong about taxes</p>
+                <p className='blog-right-card-date'>December 19,2021</p>
+              </div>
+              <div className="blog-right-card">
+                <img src={BlogRightCardImg2} alt="" />
+                <p className='blog-right-card-bold-text'>What everyone gets wrong about taxes</p>
+                <p className='blog-right-card-date'>December 19,2021</p>
+              </div>
+              <div className="blog-right-card">
+                <img src={BlogRightCardImg1} alt="" />
+                <p className='blog-right-card-bold-text'>What everyone gets wrong about taxes</p>
+                <p className='blog-right-card-date'>December 19,2021</p>
               </div>
               <div className="blog-right-card">
                 <img src={taxImg} alt="" />
-              <p>What everyone gets wrong about taxes</p>
-              <p>December 19,2021</p>
+                <p className='blog-right-card-bold-text'>What everyone gets wrong about taxes</p>
+                <p className='blog-right-card-date'>December 19,2021</p>
+              </div>
+              <div className="blog-right-card">
+                <img src={BlogRightCardImg1} alt="" />
+                <p className='blog-right-card-bold-text'>What everyone gets wrong about taxes</p>
+                <p className='blog-right-card-date'>December 19,2021</p>
               </div>
               <div className="blog-right-card">
                 <img src={taxImg} alt="" />
-              <p>What everyone gets wrong about taxes</p>
-              <p>December 19,2021</p>
+                <p className='blog-right-card-bold-text'>What everyone gets wrong about taxes</p>
+                <p className='blog-right-card-date'>December 19,2021</p>
               </div>
               <div className="blog-right-card">
-                <img src={taxImg} alt="" />
-              <p>What everyone gets wrong about taxes</p>
-              <p>December 19,2021</p>
-              </div>
-              <div className="blog-right-card">
-                <img src={taxImg} alt="" />
-              <p>What everyone gets wrong about taxes</p>
-              <p>December 19,2021</p>
-              </div>
-              <div className="blog-right-card">
-                <img src={taxImg} alt="" />
-              <p>What everyone gets wrong about taxes</p>
-              <p>December 19,2021</p>
+                <img src={BlogRightCardImg1} alt="" />
+                <p className='blog-right-card-bold-text'>What everyone gets wrong about taxes</p>
+                <p className='blog-right-card-date'>December 19,2021</p>
               </div>
 
             </div>

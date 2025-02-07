@@ -34,7 +34,7 @@
 }
 .blog-grid-wrapper{
   display: flex;
-  height: 120vh;
+  /* height: 150vh; */
   margin-top: 80px;
 }
 .blog-grid-left{
@@ -72,30 +72,142 @@
 }
 .follow-us-social-media{
   display: flex;
+  column-gap: 10px;
+}
+.follow-us-social-media i{
+  font-size: 18px;
 }
 .blog-left-card{
   display: flex;
   /* justify-content: center; */
   align-items: center;
+  padding: 20px;
 }
 .blog-left-cards-wrapper{
   display: flex;
   flex-direction: column;
+  
 }
 .blog-left-card-left{
   width: 100%;
-  max-width: 50%;
-  min-width: 50%;
+  max-width: 45%;
+  min-width: 45%;
 }
+
 .blog-left-card-right{
   width: 100%;
   max-width: 50%;
   min-width: 50%;
 }
 .blog-left-card-left img{
-  width: 300px;
+  width: 250px;
 }
 .blog-right-card-wrapper{
   display: flex;
+  column-gap: 20px;
+  row-gap: 20px;
   flex-wrap: wrap;
+  margin-top: 10px;
+  
+  align-items: center;
+}
+.unsecure-heading{
+  font-size: 14px;
+  font-weight: 500;
+}
+.blog-date-div{
+  display: flex;
+  color: #676767;
+  font-size: 12px;
+  margin-top: 8px;
+}
+.loan-para{
+  border-right: 1px solid #676767;
+  padding-right: 5px;
+}
+.blog-date{
+  margin-left: 5px;
+}
+.unsecure-para{
+  font-size: 12px;
+  margin-top: 8px;
+}
+.blog-left-card-learn-more{
+  color: #E12312;
+  font-size: 12px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+
+.blog-search-section {
+  display: flex;
+  align-items: center;
+  column-gap: 13px;
+  margin-bottom: 15px;
+  border: 1px solid #676767;
+  border-radius: 20px;
+  padding: 3px 10px;
+  visibility: hidden;
+}
+
+.blog-search-section input[type="text"] {
+  border: none;
+  font-size: 13px;
+  width: 90%;
+}
+
+.blog-search-section input[type="text"]:focus {
+ outline: none;
+}
+
+.blog-search-section button {
+  padding: 5px 15px;
+  background-color: #FFE8E7;
+  border-radius: 20px;
+  border: 1px solid #676767;
+  cursor: pointer;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.blog-search-section button:hover {
+  background-color: #E12312;
+  color: #FFF;
+  border: none;
+}
+
+.blog-search-section i {
+  font-size: 13px;
+}
+.follow-our-para{
+  font-size: 14px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+.popular-posts{
+  margin-top: 25px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.blog-right-card{
+  width: 100%;
+  max-width: 47%;
+  min-width: 47%;
+}
+.blog-right-card img{
+  width: 220px;
+}
+.blog-right-card-bold-text{
+  font-size: 14px;
+  font-weight: 500;
+}
+.blog-right-card-date{
+  color: #676767;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 5px;
 }

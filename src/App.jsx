@@ -13,6 +13,8 @@ import SetUpPassword from './View/Register/SetUpPassword'
 import MobileNumber from './View/Register/MobileNumber'
 import Verification from './View/Register/Verification'
 import SignIn from './View/Register/SignIn'
+import BlogGridSection from './View/SajafinBlog/BlogGridSection'
+import SajafinBlog from './View/SajafinBlog/SajafinBlog'
 function App() {
 
   return (
@@ -26,6 +28,7 @@ function App() {
         <Route path='/normal-account' element={<SajafinAccount/>} />
         <Route path='/savings-account' element={<SavingsAccount />} />
         <Route path='/contact-us' element={<SajafinContactUs />} />
+        <Route path='/blog' element={<SajafinBlog />} />
         <Route path='/get-started' element={<GetStarted/>}/>
         <Route path='/set-password' element={<SetUpPassword/>}/>
         <Route path='/mobile-number' element={<MobileNumber/>}/>
