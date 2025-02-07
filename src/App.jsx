@@ -8,8 +8,11 @@ import SajafinLoans from './View/SajafinLoan/SajafinLoans'
 import SajafinAccount from './View/SajafinAccount/SajafinAccount'
 import SavingsAccount from './View/SajafinSavingsAccount/SavingsAccount'
 import SajafinContactUs from './View/SajafinContactUs/SajafinContactUs'
-import SajafinBlog from './View/SajafinBlog/SajafinBlog'
-
+import GetStarted from './View/Register/GetStarted'
+import SetUpPassword from './View/Register/SetUpPassword'
+import MobileNumber from './View/Register/MobileNumber'
+import Verification from './View/Register/Verification'
+import SignIn from './View/Register/SignIn'
 function App() {
 
   return (
@@ -23,7 +26,11 @@ function App() {
         <Route path='/normal-account' element={<SajafinAccount/>} />
         <Route path='/savings-account' element={<SavingsAccount />} />
         <Route path='/contact-us' element={<SajafinContactUs />} />
-        <Route path='/blog' element={<SajafinBlog />} />
+        <Route path='/get-started' element={<GetStarted/>}/>
+        <Route path='/set-password' element={<SetUpPassword/>}/>
+        <Route path='/mobile-number' element={<MobileNumber/>}/>
+        <Route path='/verification' element={<Verification/>}/>
+         <Route path='/login' element={<SignIn/>}/>
         {/* Add more routes here */}
       </Routes>
     </BrowserRouter>
