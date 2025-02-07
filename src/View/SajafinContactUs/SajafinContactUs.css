@@ -37,6 +37,7 @@
 .contact-us-get-in-touch-heading{
   font-size: 30px;
   font-weight: 500;
+  padding-top: 40px;
 }
 .fill-the-form-para{
   font-size: 13px;
@@ -46,8 +47,8 @@
 }
 .get-in-touch-form{
   position: absolute;
-  display: flex;
-  top: 50%;
+  /* display: flex; */
+  top: 25%;
   left: 25%;
   z-index: 30;
   justify-content: space-between;
@@ -56,12 +57,15 @@
   max-width: 50%;
   box-shadow: 0px 4px 4px rgba(22, 25, 79, 0.25);
   padding: 40px 30px;
+  background-color: #FFFFFF;
+  height: 350px;
 }
 .form-group{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   row-gap: 8px;
+  margin-top: 10px;
 }
 .form-group input{
   padding: 5px 30px;
@@ -92,13 +96,98 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
+  position: relative;
   width: 100%;
-  z-index: 10;
+  z-index: 1;
+  /* bottom: 0; */
+  margin-top: 200px;
+  padding: 0px 50px;
 }
 .background-left img{
   width: 230px;
 }
 .background-right img{
-  width: 200px;
+  width: 160px;
+  position: absolute;
+  bottom: 10%;
+  right: 3%;
+}
+.form-group1{
+  display: block;
+  margin-top: 34px;
+}
+.get-in-touch-contact-btn{
+  padding: 8px 20px;
+  background-color: #E12312;
+  color: #FFFFFF;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 20px;
+} 
+.get-in-touch-form-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.need-help-wrapper{
+  text-align: center;
+  height: 70vh;
+}
+.reach-out-para{
+  color: #E12312;
+  font-size: 13px;
+  margin-top: 50px;
+}
+.need-more-help-heading{
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.complains-para{
+  font-size: 13px;
+  margin-top: 10px;
+}
+.need-help-cards-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  width: 100%;
+  max-width: 80%;
+  min-width: 80%;
+  margin: 0 auto;
+}
+.need-help-card{
+  width: 100%;
+  max-width: 30%;
+    min-width: 30%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border-radius: 20px;
+}
+.need-help-card-logo{
+  background-color: #FDD4D1;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.need-help-card-logo img{
+  width: 25px;
+}
+.need-card-sales-heading{
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 15px;
+}
+.need-card-mail{
+  color: #676767;
+  font-size: 13px;
+  margin-top: 10px;
 }

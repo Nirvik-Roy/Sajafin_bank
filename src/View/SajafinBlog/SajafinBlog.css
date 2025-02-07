@@ -1,0 +1,34 @@
+.blog-head-wrapper{
+  background-color: #FFE8E7;
+  height: 50vh;
+  display: flex;
+  padding: 5px 200px;
+  justify-content: center;
+}
+.blog-head-left{
+  width: 100%;
+  max-width: 70%;
+  min-width: 70%;
+  margin: auto 0;
+}
+.blog-head-right{
+  width: 100%;
+  max-width: 30%;
+  min-width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blog-head-right img{
+  height: 90%;
+}
+.blog-heading{
+  font-size: 35px;
+  font-weight: 600;
+}
+.home-to-blog-link{
+  margin-top: 10px;
+  font-size: 13px;
+  cursor: pointer;
+  color: #676767;
+}

@@ -9,7 +9,8 @@ const ContactUsGetInTouch = () => {
         <h2 className='contact-us-get-in-touch-heading'>Get in touch with us.</h2>
         <p className='fill-the-form-para'>Fill up the form and our team will get back to you within 24 hours</p>
         <div className="get-in-touch-form">
-          <div className="get-form-first-wrapper">
+        <div className="get-in-touch-form-wrapper">
+        <div className="get-form-first-wrapper">
           <div className="form-group">
               <label htmlFor="name">Name:</label>
               <input type="text" id="name" placeholder="what's your name ?"/>
@@ -37,8 +38,15 @@ const ContactUsGetInTouch = () => {
           <label htmlFor="email">Service interested in:</label>
           <input type="text" id="email" placeholder="Ex. Auto Loan, Home Loan"/>
           </div>
+          
           </div>
-          {/* <button className='send-msg-btn'>Send Message</button> */}
+        </div>
+          
+          
+          <div className="form-group1">
+            <button className='get-in-touch-contact-btn'>Send Message</button>
+          </div>
+          
         </div>
         <div className="get-in-touch-form-background">
           <div className="background-left">
