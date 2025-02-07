@@ -101,6 +101,7 @@ iframe{
   align-items: center;
   column-gap: 5px;
   cursor: pointer;
+  font-size: 15px;
 }
 .nav_logo_wrapper{
   width: 200px;
@@ -141,7 +142,7 @@ iframe{
   margin-top: 10px;
 }
 .registration-btns input{
-  width:210px;
+  width:56%;
   border: none;
   border-radius: 5px;
   padding: 15px 10px;

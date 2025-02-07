@@ -3,9 +3,11 @@ import Header from '../../Layout/Header.jsx'
 import './Register.css'
 import formImg from '../../assets/Group 1171275310.png'
 import rightarrow from '../../assets/right-arrow (1) 1.png'
+import { useNavigate } from 'react-router-dom'
 const SignIn = () => {
       const [eye,seteye]=useState(false)
       const [eye2,seteye2]=useState(false)
+      const navigate=useNavigate()
   return (
     <>
                   <div className='uni_container' >
@@ -56,7 +58,7 @@ const SignIn = () => {
             </div>
           
             
-            <button className='submit_btn_56585' type='submit'>Login</button>
+            <button onClick={(()=>navigate('/'))} className='submit_btn_56585' type='submit'>Login</button>
            </form>
            
         </div>

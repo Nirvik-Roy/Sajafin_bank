@@ -5,7 +5,9 @@ import formImg from '../../assets/Group 1171275310.png'
 import rightarrow from '../../assets/right-arrow (1) 1.png'
 import flag from '../../assets/flag 1.png'
 import down from '../../assets/play 1.png'
+import { useNavigate } from 'react-router-dom'
 const MobileNumber = () => {
+  const navigate = useNavigate()
   return (
     <>
                   <div className='uni_container' >
@@ -35,9 +37,9 @@ you on? </h3>
               </div>
             </div>
 
-            <button className='submit_btn_56585' type='submit'>Submit Now</button>
+            <button onClick={(()=>navigate('/verification'))} className='submit_btn_56585' type='submit'>Submit Now</button>
            </form>
-           <div className='back_wrapper'>
+           <div onClick={(()=>navigate('/set-password'))} className='back_wrapper'>
             <img src={rightarrow}/>
             <p>Back</p>
            </div>

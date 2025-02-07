@@ -58,6 +58,7 @@
   min-width: 50%;
   max-width: 50%;
   margin-left: 30px;
+  position: relative;
 }
 .ambition-small-cards-wrapper{
   display: flex;
@@ -80,6 +81,9 @@
   font-size: 15px;
   color: #343434;
   margin-top: 20px;
+  width: 100%;
+  max-width: 90%;
+  min-width: 90%;
 }
 .aboutus-small-card{
   width: 100%;
@@ -108,15 +112,15 @@
 }
 .aboutus-img2{
   position: absolute;
-  right: 8%;
-  top: 120%;
+  right: 21%;
+  top: 38%;
   z-index: 20;
   width: 280px;
 }
 .aboutus-img3{
   width: 280px;
-  position: absolute;
-  right: 25.7%;
-  top: 137.7%;
-  z-index: 30;
+    position: absolute;
+    right: 60.7%;
+    top: 69%;
+    z-index: 30;
 }

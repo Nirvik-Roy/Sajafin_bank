@@ -2,7 +2,9 @@ import React from 'react'
 import Header from '../../Layout/Header.jsx'
 import './Register.css'
 import formImg from '../../assets/Group 1171275310.png'
+import { useNavigate } from 'react-router-dom'
 const GetStarted = () => {
+  const navigate = useNavigate()
   return (
     <>
     
@@ -36,7 +38,7 @@ const GetStarted = () => {
 
             <p className='click_para'>By clicking submit, you agree to <span>Sajafin’s Terms of Use, Privacy Policy, E-sign &
             communication Authorization.</span> </p>
-            <button className='submit_btn_56585' type='submit'>Submit Now</button>
+            <button onClick={(()=>navigate('/set-password'))} className='submit_btn_56585' type='submit'>Submit Now</button>
            </form>
         </div>
         <div className='get_started_right'>

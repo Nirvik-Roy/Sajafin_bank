@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import logo from '../assets/image.png'
 import arrow from '../assets/image (1).png'
-import {NavLink} from 'react-router-dom'
+import {NavLink, useNavigate} from 'react-router-dom'
 const Header = () => {
 
   const [productDropdownOpen, setProductDropdownOpen] = useState(false);
   const [accountsDropdownOpen, setAccountsDropdownOpen] = useState(false);
-
+  const navigate = useNavigate()
   return (
     <>
     <div className=''>
@@ -74,7 +74,9 @@ const Header = () => {
           <NavLink to="/contact-us" className="nav_links">
             Contact us
           </NavLink>
-          <button className="open_account_btn">Open Account</button>
+          <button onClick={(()=>navigate('/get-started'))} style={{
+            cursor:'pointer'
+          }} className="open_account_btn">Open Account</button>
         </div>
       </div>
     </div>

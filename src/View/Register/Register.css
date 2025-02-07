@@ -1,7 +1,7 @@
 .get_started_form_wrapper{
     display: flex;
     justify-content: space-between;
-
+    padding-bottom: 50px;
 }
 .get_started_left{
     width:100%;

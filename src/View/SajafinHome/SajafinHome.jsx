@@ -35,7 +35,7 @@ const SajafinHome = () => {
       </div>
       <div className='home_loans_div'>
          <img src={home}/>
-         <p>Car Loans</p>
+         <p>Home Loan</p>
       </div>
     </div>
     <div className='sajafin_head_wrapper_div'>

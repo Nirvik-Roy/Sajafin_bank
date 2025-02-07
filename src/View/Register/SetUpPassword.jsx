@@ -3,9 +3,11 @@ import Header from '../../Layout/Header.jsx'
 import './Register.css'
 import formImg from '../../assets/Group 1171275310.png'
 import rightarrow from '../../assets/right-arrow (1) 1.png'
+import { useNavigate } from 'react-router-dom'
 const SetUpPassword = () => {
     const [eye,seteye]=useState(false)
     const [eye2,seteye2]=useState(false)
+    const navigate = useNavigate()
   return (
     <>
             <div className='uni_container' >
@@ -58,9 +60,9 @@ const SetUpPassword = () => {
                 color:' rgba(69, 90, 100, 1)'
               }} class="fa-solid fa-eye-slash"></i> }
             </div>
-            <button className='submit_btn_56585' type='submit'>Submit Now</button>
+            <button onClick={(()=>navigate('/mobile-number'))} className='submit_btn_56585' type='submit'>Submit Now</button>
            </form>
-           <div className='back_wrapper'>
+           <div onClick={(()=>navigate('/get-started'))} className='back_wrapper'>
             <img src={rightarrow}/>
             <p>Back</p>
            </div>
