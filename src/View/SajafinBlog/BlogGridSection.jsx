@@ -1,4 +1,5 @@
 import React from 'react'
+import HomeOwnerImg from '../../assets/Group 1171275319.png'
 
 const BlogGridSection = () => {
   return (
@@ -13,11 +14,86 @@ const BlogGridSection = () => {
               <div className="blog-navlink">Business</div>
             </div>
             <div className="blog-left-cards-wrapper">
-              <div className="blog-left-card"></div>
-              <div className="blog-left-card"></div>
-              <div className="blog-left-card"></div>
-              <div className="blog-left-card"></div>
-              <div className="blog-left-card"></div>
+              <div className="blog-left-card">
+                <div className="blog-left-card-left">
+                  <img src={HomeOwnerImg} alt="" />
+                </div>
+                <div className="blog-left-card-right">
+                  <p>How Do Unsecured Homeowner
+                  Loans Work?</p>
+                  <div className="blog-date">
+                  <p>Loan</p>
+                  <p>Jan 30 2025</p>  
+                  </div>
+                  <p>There are usually two kinds of loans Secured
+                  loans and Unsecured loans</p>
+                  <p>Learn More</p>
+                </div>
+              </div>
+              <div className="blog-left-card">
+              <div className="blog-left-card-left">
+                  <img src={HomeOwnerImg} alt="" />
+                </div>
+                <div className="blog-left-card-right">
+                  <p>How Do Unsecured Homeowner
+                  Loans Work?</p>
+                  <div className="blog-date">
+                  <p>Loan</p>
+                  <p>Jan 30 2025</p>  
+                  </div>
+                  <p>There are usually two kinds of loans Secured
+                  loans and Unsecured loans</p>
+                  <p>Learn More</p>
+                </div>
+              </div>
+              <div className="blog-left-card">
+              <div className="blog-left-card-left">
+                  <img src={HomeOwnerImg} alt="" />
+                </div>
+                <div className="blog-left-card-right">
+                  <p>How Do Unsecured Homeowner
+                  Loans Work?</p>
+                  <div className="blog-date">
+                  <p>Loan</p>
+                  <p>Jan 30 2025</p>  
+                  </div>
+                  <p>There are usually two kinds of loans Secured
+                  loans and Unsecured loans</p>
+                  <p>Learn More</p>
+                </div>
+              </div>
+              <div className="blog-left-card">
+              <div className="blog-left-card-left">
+                  <img src={HomeOwnerImg} alt="" />
+                </div>
+                <div className="blog-left-card-right">
+                  <p>How Do Unsecured Homeowner
+                  Loans Work?</p>
+                  <div className="blog-date">
+                  <p>Loan</p>
+                  <p>Jan 30 2025</p>  
+                  </div>
+                  <p>There are usually two kinds of loans Secured
+                  loans and Unsecured loans</p>
+                  <p>Learn More</p>
+                </div>
+              </div>
+              <div className="blog-left-card">
+              <div className="blog-left-card-left">
+                  <img src={HomeOwnerImg} alt="" />
+                </div>
+                <div className="blog-left-card-right">
+                  <p>How Do Unsecured Homeowner
+                  Loans Work?</p>
+                  <div className="blog-date">
+                  <p>Loan</p>
+                  <p>Jan 30 2025</p>  
+                  </div>
+                  <p>There are usually two kinds of loans Secured
+                  loans and Unsecured loans</p>
+                  <p>Learn More</p>
+                </div>
+              </div>
             </div>
           </div>
           <div className="blog-grid-right">

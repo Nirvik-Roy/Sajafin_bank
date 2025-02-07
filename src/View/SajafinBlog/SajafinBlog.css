@@ -63,3 +63,25 @@
 .follow-us-social-media{
   display: flex;
 }
+.blog-left-card{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.blog-left-cards-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+.blog-left-card-left{
+  width: 100%;
+  max-width: 50%;
+  min-width: 50%;
+}
+.blog-left-card-right{
+  width: 100%;
+  max-width: 50%;
+  min-width: 50%;
+}
+.blog-left-card-left img{
+  width: 300px;
+}
