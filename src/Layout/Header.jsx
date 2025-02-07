@@ -74,6 +74,10 @@ const Header = () => {
           <NavLink to="/contact-us" className="nav_links">
             Contact us
           </NavLink>
+          
+          <NavLink to="/blog" className="nav_links">
+        Blog
+          </NavLink>
           <button onClick={(()=>navigate('/get-started'))} style={{
             cursor:'pointer'
           }} className="open_account_btn">Open Account</button>
