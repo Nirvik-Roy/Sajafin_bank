@@ -23,10 +23,12 @@ const SajafinHome = () => {
   return (
     <>
     <div className='uni_container' style={{
-      position:'relative',
+      
       paddingBottom:'150px'
     }}>
     <Header/>
+    <div className="home-banner-wrapper" style={{position:'relative'}}>
+
     <div className='background_pink_div'>
       <img className='family_img' src={family}/>
       <div className='car_loans_div'>
@@ -63,6 +65,7 @@ const SajafinHome = () => {
           <img src={img4}/>
         </div>
       </div>
+    </div>
     </div>
     </div>
      <HomeExperience/>

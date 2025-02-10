@@ -409,11 +409,14 @@ margin-top: 5px;
 .transfer-money-header p{
   font-size: 25px;
   font-weight: 600;
-  margin-left: 280px;
+  /* margin-left: 280px; */
 }
 .money-transfer-card{
   display: flex;
-  height: 350px;
+  justify-content: space-between;
+}
+.money-transfer-card2{
+  display: flex;
   justify-content: space-between;
 }
 .money-transfer-card-left{
@@ -430,7 +433,7 @@ margin-top: 5px;
 }
 .money-transfer-card-right img{
   width: 100%;
-  height: 100%;
+  height: 350px;
 }
 .transfer-card-text1, .transfer-card-text2{
   font-size: 15px;
@@ -453,7 +456,7 @@ margin-top: 5px;
 }
 .money-transfer-card2-left img{
   width: 100%;
-  height: 100%;
+  height: 350px;
 }
 .money-transfer-card2-right{
   width: 100%;
@@ -472,8 +475,9 @@ margin-top: 5px;
   height: 90px;
 }
 .remittance-wrapper{
-  background-image: url('../../assets/Group 1171275288.png');
+  background-image: linear-gradient(to left,rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../assets/business-meeting-office.jpg');
   background-size: cover;
+  background-position-y: 25%;
   height: 290px;
   text-align: center;
   margin-top: 80px;
@@ -517,4 +521,162 @@ margin-top: 5px;
 .accordion-item p{
   color: #DC2C1D;
   font-size: 13px;
+}
+.transfer-money-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width:999px){
+  .services-cards-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+  .background_pink_div .family_img{
+    width: 100%;
+    max-width: 90%;
+    min-width: 90%;
+  }
+  .card{
+    width: 100%;
+    max-width: 45%;
+    min-width: 45%;
+  }
+  .money-transfer-card-left{
+    padding: 65px 0px;
+  }
+  .home-banner-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .background_pink_div{
+    width: 100%;
+    max-width: 100%;
+    position: static;
+  }
+  .background_pink_div .family_img{
+    position: static;
+  }
+  .sajafin_head_wrapper_div{
+    width: 100%;
+    text-align: center;
+  }
+  .coupon_div_wrapper{
+    justify-content: center;
+  }
+  .home_call_wrapper{
+    justify-content: center;
+  }
+  .experiene_card{
+    width: 100%;
+    max-width: 24%;
+    min-width: 24%;
+  }
+  .right_content_div p{
+    width: 100%;
+    max-width: 90%;
+    min-width: 90%;
+  }
+  .transfer-money-header p{
+    font-size: 22px;
+  }
+  
+  .car_loans_div{
+    padding: 8px 15px;
+    left: 2%;
+  }
+  .home_loans_div{
+    padding: 8px 15px;
+    right: 2%;
+  }
+  .accordion-wrapper{
+    width: 100%;
+    max-width: 55%;
+    min-width: 55%;
+  }
+  .money-transfer-card{
+    flex-wrap: wrap-reverse;
+  }
+  .money-transfer-card2{
+    flex-wrap: wrap;
+  }
+  
+  .money-transfer-card-right, .money-transfer-card2-right{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .money-transfer-card-left, .money-transfer-card2-left{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+
+@media (max-width:768px) {
+  .experiene_card{
+    width: 100%;
+    max-width: 30%;
+    min-width: 30%;
+  }
+  .ipdc_wrapper{
+    flex-wrap: wrap;
+  }
+  .ipdc_left_div{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    object-fit: cover;
+  }
+  
+  .ipdc_right_div{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .remittance-heading{
+    font-size: 23px;
+    padding-top: 95px;
+  }
+  .remittance-para{
+    font-size: 13px;
+  }
+  .accordion-wrapper{
+    width: 100%;
+    max-width: 65%;
+    min-width: 65%;
+  }
+  .services-cards-wrapper{
+    padding: 0px 20px;
+  }
+  .sajafin_head_wrapper_div{
+    width: 100%;
+    max-width: 66%;
+    min-width: 66%;
+  }
+
+}
+ 
+
+@media (max-width:620px){
+  .services-cards-wrapper{
+    padding: 0px 60px;
+  }
+  .card{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .remittance-wrapper{
+    padding: 0px 15px;
+  }
+  .accordion-wrapper{
+    width: 100%;
+    max-width: 80%;
+    min-width: 80%;
+  }
 }

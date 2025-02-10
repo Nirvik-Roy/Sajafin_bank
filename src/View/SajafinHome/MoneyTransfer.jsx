@@ -30,7 +30,7 @@ const MoneyTransfer = () => {
             <img src={transfer_card_img1} alt="" />
           </div>
         </div>
-        <div className="money-transfer-card" style={{marginTop:"30px"}}>
+        <div className="money-transfer-card2" style={{marginTop:"30px"}}>
         <div className="money-transfer-card2-left">
         <img src={transfer_card_img2} alt="" />    
           </div>

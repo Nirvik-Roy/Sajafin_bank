@@ -212,3 +212,127 @@ iframe{
   font-weight: 500;
   margin-bottom: 20px;
 }
+.hamburger-button{
+    display: none;
+}
+.sidebar {
+  width: 280px; /* Fixed width for better layout */
+  height: 100vh; /* Full height */
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #1e1e2d; /* Dark theme */
+  padding: 20px;
+  color: white;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 99999;
+}
+.sidebar a{
+  text-decoration: none;
+  color: #FFF;
+  margin-bottom: 30px;
+}
+
+.sidebar-open-account-btn {
+  margin-top: 20px;
+  width: 90%;
+  padding: 10px;
+  background: #ff6b6b;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.sidebar-links-wrapper{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.sidebar-dropdown-item{
+  color: #FFF;
+}
+.sidebar-dropdown-button{
+  color: #FFF;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.sidebar-dropdown-menu{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+@media(max-width:1199px){
+  .nav_link_wrapper {
+    display: none; 
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: white;
+    width: 200px;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav_link_wrapper.show {
+    display: flex; 
+  }
+
+  .hamburger-button {
+    display: flex; 
+  }
+  .sidebar{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:999px){
+  .footer-wrapper{
+    padding: 60px 40px 40px 50px;
+  }
+}
+@media (max-width:900px){
+  .footer-wrapper{
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 30px;
+  }
+  .footer-div{
+    width: 100%;
+    max-width: 45%;
+    min-width: 45%;
+  }
+  .customer-support-div,.product-documents-links-div,.about-us-links-div{
+    text-align: center;
+  }
+}
+@media (max-width:620px){
+  .footer-wrapper{
+    row-gap: 50px;
+  }
+  .footer-div{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .company-info-div{
+    text-align: center;
+  }
+  .sajafin_head_wrapper_div{
+    width: 100%;
+    max-width: 78%;
+    min-width: 78%;
+  }
+  .registration-btns{
+    justify-content: center;
+    align-items: center;
+  }
+
+}

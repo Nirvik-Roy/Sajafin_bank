@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer-wrapper">
 
 
-          <div className="company-info-div">
+          <div className="company-info-div footer-div">
             <div className="company-logo">
               <img src={sajafinLogo} alt="" />
             </div>
@@ -21,7 +21,7 @@ const Footer = () => {
           </div>
 
 
-          <div className="about-us-links-div">
+          <div className="about-us-links-div footer-div">
             <h2>About Us</h2>
             <div className="about-us-links-wrapper">
             <NavLink className="about-us-link">Careers with us</NavLink>
@@ -35,7 +35,7 @@ const Footer = () => {
           </div>
 
 
-          <div className="product-documents-links-div">
+          <div className="product-documents-links-div footer-div">
           <h2>Product Documents</h2>
           <div className="product-documents-links-wrapper">
           <NavLink className="about-us-link">Terms and Conditions</NavLink>
@@ -47,7 +47,7 @@ const Footer = () => {
           </div>
 
 
-          <div className="customer-support-div">
+          <div className="customer-support-div footer-div">
             <h2>Customer support</h2>
             <div className="customer-support-links-wrapper">
               <NavLink className="about-us-link">How to reach us</NavLink>
