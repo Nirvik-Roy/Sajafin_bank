@@ -680,3 +680,41 @@ margin-top: 5px;
     min-width: 80%;
   }
 }
+
+@media (max-width:515px){
+  .services-cards-wrapper{
+    padding: 0px 20px;
+  }
+  .transfer-money-header img{
+    width: 70px;
+    height: 70px;
+  }
+  .transfer-money-footer img{
+    width: 70px;
+    height: 70px;
+  }
+  .transfer-money-header p{
+    font-size: 18px;
+  }
+  .money-transfer-card-right img{
+    height: 270px;
+  }
+
+  .money-transfer-card2-left img{
+    height: 270px;
+  }
+  .result-card{
+    width: 100%;
+    max-width: 25%;
+    min-width: 25%;
+  }
+}
+
+@media (max-width:490px){
+  .transfer-logo img{
+    width: 60px;
+  }
+  .transfer-card-heading{
+    font-size: 22px;
+  }
+}
