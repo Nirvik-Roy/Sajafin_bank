@@ -4,7 +4,8 @@ import solutionImg from '../../assets/Investment data-pana 1.png'
 const PersonalizedSolution = () => {
   return (
     <>
-      <div className="personalized-solution-wrapper">
+    <div className="personalized-container">
+    <div className="personalized-solution-wrapper">
         <div className="personalized-solution-left">
           <img src={solutionImg} alt="" />
         </div>
@@ -16,6 +17,7 @@ const PersonalizedSolution = () => {
           <button className='apply-for-loan-btn'>Apply for a loan</button>
         </div>
       </div>
+    </div>
     </>
   )
 }

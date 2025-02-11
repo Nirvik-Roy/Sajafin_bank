@@ -4,7 +4,8 @@ import dreamBigImg from '../../assets/Manage money-bro 1.png'
 const DreamBig = () => {
   return (
     <>
-      <div className="dream-big-wrapper">
+    <div className="dream-big-container">
+    <div className="dream-big-wrapper">
         <div className="dream-big-left">
           <p className='future-heading'>Build the Future You See for Yourself</p>
           <h1 className='freedom-heading'>Enjoy The Freedom
@@ -17,6 +18,7 @@ const DreamBig = () => {
           <img src={dreamBigImg} alt="" />
         </div>
       </div>
+    </div>
     </>
   )
 }

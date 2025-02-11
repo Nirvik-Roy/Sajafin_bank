@@ -4,8 +4,8 @@ import loanCardLogo from '../../assets/Group 1171275293.png'
 const FinancialPlanning = () => {
   return (
     <>
-      
-        <div className="financial-planning-wrapper">
+      <div className="financial-planning-container">
+      <div className="financial-planning-wrapper">
           <div className="financial-planning-left">
             <p className='financial-planning-heading'>Financial Planning</p>
             <h2 className='finances-heading'>Let’s plan your finances the right way </h2>
@@ -66,6 +66,7 @@ const FinancialPlanning = () => {
             </div>
           </div>
         </div>
+      </div>
       
     </>
   )

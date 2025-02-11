@@ -1,7 +1,14 @@
-.dream-big-wrapper{
+.dream-big-container{
   background-color: #FFE8E7;
-  padding: 50px 170px;
-  height: 80vh;
+}
+
+.dream-big-wrapper{
+  /* padding: 50px 170px; */
+  /* height: 80vh; */
+  width: 100%;
+  max-width: 75%;
+  min-width: 75%;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +24,7 @@
   max-width: 50%;
 }
 .dream-big-right img{
-  width: 530px;
+  width: 100%;
 }
 .future-heading{
   font-weight: 500;
@@ -40,10 +47,14 @@
   padding: 8px 15px;
   border: none;
 }
+
 .financial-planning-wrapper{
   display: flex;
-  padding: 50px 170px;
-
+  width: 100%;
+  max-width: 75%;
+  min-width: 75%;
+  margin: 0 auto;
+  padding: 50px 0px;
 }
 .financial-planning-left{
   width: 100%;
@@ -103,11 +114,17 @@
   font-size: 11px;
   color: #676767;
 }
-.personalized-solution-wrapper{
+.personalized-container{
   background-color: #FFE8E7;
-  height: 50vh;
+}
+.personalized-solution-wrapper{
+  /* height: 50vh; */
   display: flex;
-  padding: 20px 220px;
+  width: 100%;
+  max-width: 70%;
+  min-width: 70%;
+  margin: 0 auto;
+  /* padding: 20px 220px; */
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
@@ -118,7 +135,8 @@
   min-width: 50%;
 }
 .personalized-solution-left img{
-  width: 500px;
+  width: 100%;
+  height: 100%;
 }
 .personalized-solution-right{
   width: 100%;
