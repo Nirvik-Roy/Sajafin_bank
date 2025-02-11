@@ -4,7 +4,8 @@ import securityTrustImg from '../../assets/Consultative sales-bro 1.png'
 const SecurityTrust = () => {
   return (
     <>
-      <div className="security-trust-wrapper">
+    <div className="security-trust-container">
+    <div className="security-trust-wrapper">
         <div className="security-trust-left">
           <h2 className='trust-heading'>Our trust is built on
           your security</h2>
@@ -15,6 +16,7 @@ const SecurityTrust = () => {
           <img src={securityTrustImg} alt="" />
         </div>
       </div>
+    </div>
     </>
   )
 }

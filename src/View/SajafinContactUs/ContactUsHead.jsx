@@ -4,7 +4,8 @@ import contactusHeadImg from '../../assets/Group 1171275308.png'
 const ContactUsHead = () => {
   return (
     <>
-      <div className="contact-us-head-wrapper">
+    <div className="contactus-head-container">
+    <div className="contact-us-head-wrapper">
         <div className="contact-us-head-left">
           <h2 className='contact-us-heading'>Contact Us</h2>
           <p className='home-to-contact-us-link'>Home <i class="fa-solid fa-arrow-right"></i> Contact Us</p>
@@ -13,6 +14,7 @@ const ContactUsHead = () => {
           <img src={contactusHeadImg} alt="" />
         </div>
       </div>
+    </div>
     </>
   )
 }

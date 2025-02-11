@@ -4,7 +4,8 @@ import bankImg from '../../assets/Group 1171275295.png'
 const RightAccount = () => {
   return (
     <>
-      <div className="right-account-wrapper">
+    <div className="right-account-container">
+    <div className="right-account-wrapper">
         <div className="right-account-left">
         <p className='financial-help-heading'>The right financial help, at the right time</p>
           <h1 className='bank-account-heading'>An Account You Can Truey Bank Upon</h1>
@@ -15,6 +16,7 @@ const RightAccount = () => {
           <img src={bankImg} alt="" />
         </div>
       </div>
+    </div>
     </>
   )
 }

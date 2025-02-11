@@ -4,7 +4,8 @@ import AccountHeadImg from '../../assets/Savings-bro 1.png'
 const AccountHead = () => {
   return (
     <>
-      <div className="account-head-wrapper">
+    <div className="account-head-container">
+    <div className="account-head-wrapper">
         <div className="account-head-left">
           <h1 className='savings-account-heading'>Saving Account</h1>
           <div className="nav-links-wrapper">
@@ -18,6 +19,7 @@ const AccountHead = () => {
           <img src={AccountHeadImg} alt="" />
         </div>
       </div>
+    </div>
     </>
   )
 }

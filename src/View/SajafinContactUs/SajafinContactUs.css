@@ -1,23 +1,32 @@
+.contactus-head-container{
+  background-color: #FFE8E7;
+}
+
 .contact-us-head-wrapper{
   background-color: #FFE8E7;
-  height: 50vh;
+  /* height: 50vh; */
   display: flex;
-  padding: 5px 200px;
+  padding: 20px 0px;
+  width: 100%;
+  max-width: 75%;
+  min-width: 75%;
+  margin: 0 auto;
   justify-content: center;
 }
 .contact-us-head-left{
   width: 100%;
-  max-width: 70%;
-  min-width: 70%;
+  max-width: 60%;
+  min-width: 60%;
   margin: auto 0;
 }
 .contact-us-head-right{
   width: 100%;
-  max-width: 30%;
-  min-width: 30%;
+  max-width: 40%;
+  min-width: 40%;
 }
 .contact-us-head-right img{
   height: 100%;
+  width: 100%;
 }
 .contact-us-heading{
   font-size: 29px;
@@ -58,7 +67,7 @@
   box-shadow: 0px 4px 4px rgba(22, 25, 79, 0.25);
   padding: 40px 30px;
   background-color: #FFFFFF;
-  height: 350px;
+  /* height: 350px; */
 }
 .form-group{
   display: flex;
@@ -91,7 +100,7 @@
   display: block;
 }
 .get-in-touch-form-background{
-  height: 40vh;
+  /* height: 40vh; */
   background-color: #FFE8E7;
   display: flex;
   justify-content: space-between;
@@ -101,7 +110,7 @@
   z-index: 1;
   /* bottom: 0; */
   margin-top: 200px;
-  padding: 0px 50px;
+  padding: 10px 50px;
 }
 .background-left img{
   width: 230px;

@@ -38,7 +38,8 @@
   cursor: pointer;
 }
 .ambition-section-wrapper{
-  height: 115vh;
+  /* height: 115vh; */
+  padding: 50px 0px;
 }
 .ambition-circle{
   background-color: #FCE5E4;
@@ -131,3 +132,62 @@
     z-index: 30;
 }
 
+@media (max-width:1299px){
+  .aboutus-img1{
+    width: 230px;
+  }
+  .aboutus-img2{
+    width: 230px;
+  }
+  .aboutus-img3{
+    width: 230px;
+    top: 62%;
+    right: 60.7%;
+  }
+  .ambition-section-container{
+    margin-left: 150px;
+  }
+}
+
+@media (max-width:1199px){
+  .ambition-section-container{
+    margin: 0 auto;
+  }
+  .ambition-right-section{
+    margin-left: 50px;
+  }
+}
+@media (max-width:1099px){
+  .aboutus-small-card{
+    width: 100%;
+    max-width: 22%;
+    min-width: 22%;
+  }
+}
+@media (max-width:1055px){
+  .aboutus-img2{
+    right: 10%;
+  }
+  .aboutus-img3{
+    top: 60%;
+    right: 58.7%;
+  }
+}
+
+@media (max-width:999px){
+  .ambition-section-container{
+    flex-wrap: wrap-reverse;
+  }
+  .ambition-right-section{
+    width: 100%;
+    max-width: 60%;
+    min-width: 60%;
+    margin: 0 auto;
+  }
+  .ambition-left-section{
+    width: 100%;
+    max-width: 60%;
+    min-width: 60%;
+    margin: 0 auto;
+  }
+}

@@ -1,8 +1,15 @@
-.account-head-wrapper{
+.account-head-container{
   background-color: #FFE8E7;
-  height: 50vh;
+}
+
+.account-head-wrapper{
+  /* height: 50vh; */
+  width: 100%;
+  max-width: 75%;
+  min-width: 75%;
+  margin: 0 auto;
   display: flex;
-  padding: 5px 200px;
+  /* padding: 50px 0px; */
   justify-content: center;
   /* align-items: center; */
 }
@@ -19,11 +26,12 @@
 }
 .account-head-right{
   width: 100%;
-  max-width: 30%;
-  min-width: 30%;
+  max-width: 40%;
+  min-width: 40%;
 }
 .account-head-right img{
   height: 100%;
+  width: 100%;
 }
 .savings-account-heading{
   font-size: 29px;
@@ -34,12 +42,17 @@
   font-size: 13px;
 }
 .account-security-wrapper{
-  height: 75vh;
+  /* height: 75vh; */
   display: flex;
+  width: 100%;
+  max-width: 75%;
+  min-width: 75%;
+  column-gap: 25px;
   justify-content: center;
   align-items: center;
-  padding: 80px 170px;
-  margin-top: 30px;
+  padding: 50px 0px;
+  /* margin-top: 30px; */
+  margin: 0 auto;
 }
 .account-security-left{
   width: 100%;
@@ -95,7 +108,8 @@
   box-shadow: 0px 4px 4px rgba(22, 25, 79, 0.25);
   top: 50%;
   left: 25%;
-  height: 250px;
+  /* height: 250px; */
+  padding: 50px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -242,7 +256,8 @@
   min-width: 50%;
 }
 .how-it-work-right img{
-  width: 500px;
+  width: 100%;
+  height: 100%;
 }
 .check-ebility-div{
   display: flex;
