@@ -447,3 +447,16 @@
     margin-top: 15px;
   }
 }
+@media (max-width:530px){
+  .cards-accordion-wrapper{
+    padding: 20px;
+  }
+  .card-accordion-item{
+    font-size: 10px;
+  }
+}
+@media (max-width:400px){
+  .freedom-heading{
+    font-size: 20px;
+  }
+}
