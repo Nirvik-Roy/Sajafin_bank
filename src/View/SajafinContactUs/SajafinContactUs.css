@@ -39,7 +39,8 @@
   color: #676767;
 }
 .contact-us-get-in-touch-wrapper{
-  height: 90vh;
+  /* height: 90vh; */
+  padding: 0px 20px;
   position: relative;
   text-align: center;
 }
@@ -271,21 +272,25 @@
 }
 @media (max-width:450px){
   .get-in-touch-form-background{
-    flex-wrap: wrap;
+    padding: 10px 20px;
   }
-  .background-left{
-    width: 100%;
-    max-width: 100%;
+  .background-left img{
+    width: 200px;
   }
-  .background-right{
-    width: 100%;
-    max-width: 100%;
+  .background-right img{
+    width: 120px;
   }
+  
 }
 @media (max-width:420px){
   .need-help-card{
     width: 100%;
     max-width: 100%;
     min-width: 100%;
+  }
+}
+@media (max-width:350px){
+  .contact-us-get-in-touch-heading{
+    font-size: 22px;
   }
 }
