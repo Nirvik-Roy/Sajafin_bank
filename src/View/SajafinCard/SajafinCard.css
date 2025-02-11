@@ -86,6 +86,7 @@
 .rewards-wrapper{
   /* height: 60vh; */
   margin-bottom: 100px;
+  position: relative;
 }
 .reward-section{
   background-image: url("../../assets/Group 1171275052.png");
@@ -105,7 +106,7 @@
 .giftcard-section{
   position: absolute;
   width: 100%;
-  top: 180%;
+  top: 66%;
   left: 28%;
   max-width: 45%;
   min-width: 45%;
