@@ -16,7 +16,7 @@ import Services from './Services.jsx'
 import BestResult from './BestResult.jsx'
 import MoneyTransfer from './MoneyTransfer.jsx'
 import Remittances from './Remittances.jsx'
-import vectorimg from '../../assets/Group 1171275289.png'
+import vectorimg from '../../assets/Group 1171275289 (2).png'
 import Accordion from './Accordion.jsx'
 import Footer from '../../Layout/Footer.jsx'
 const SajafinHome = () => {
