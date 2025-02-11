@@ -26,7 +26,9 @@ const SajafinAbout = () => {
       <Services />
       <BestResult />
       <MoneyTransfer />
-      <Remittances />   
+      <div style={{ marginBottom: "60px" }}>
+      <Remittances />
+      </div>   
       <Footer/>
     </>
   )

@@ -75,7 +75,7 @@ const SajafinHome = () => {
       <BestResult />
       <MoneyTransfer />
       <Remittances />
-      <img src={vectorimg} alt="" style={{height: "280px", width:"100%"}}/>
+      <img src={vectorimg} alt="" style={{height: "320px", width:"100%"}}/>
       <Accordion />
       <Footer />
     </>
