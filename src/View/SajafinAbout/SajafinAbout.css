@@ -38,7 +38,7 @@
   cursor: pointer;
 }
 .ambition-section-wrapper{
-  /* height: 115vh; */
+  height: 115vh;
   padding: 50px 0px;
 }
 .ambition-circle{
@@ -175,6 +175,9 @@
 }
 
 @media (max-width:999px){
+  .ambition-section-wrapper{
+    height: 0px;
+  }
   .ambition-section-container{
     flex-wrap: wrap-reverse;
   }
